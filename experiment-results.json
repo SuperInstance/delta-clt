@@ -1,0 +1,148 @@
+{
+  "timestamp": "2026-06-16T01:07:13.172133+00:00",
+  "n_agents": 6,
+  "delta_n": 0.3061862178478973,
+  "gamma_fraction": 0.8799492868297802,
+  "eta_fraction": 0.12005071317021976,
+  "predicted_gamma": 0.6938137821521027,
+  "drift": 0.1861355046776776,
+  "law_holds": false,
+  "agents": [
+    {
+      "id": "architect",
+      "personality": "skeptical",
+      "gamma_quality": 0.912375249500998,
+      "scores": {
+        "boundary": 1.0,
+        "pattern": 0.8922155688622755,
+        "process": 0.7,
+        "knowledge": 1.0,
+        "social": 0.9000000000000001,
+        "deepstructure": 0.9191616766467066,
+        "instrument": 1.0,
+        "paradigm": 0.9000000000000001,
+        "stakes": 0.9000000000000001
+      },
+      "output_preview": "I need to push back here. The claim that 'defection masks structural contribution' sounds clean, but let's stress-test it.\n\nFirst: the \u03b4(n) formula is an approximation. The O(n\u207b\u00b2) term is unbounded \u2014 "
+    },
+    {
+      "id": "mathematician",
+      "personality": "creative",
+      "gamma_quality": 0.9055555555555556,
+      "scores": {
+        "boundary": 0.8,
+        "pattern": 1.0,
+        "process": 0.85,
+        "knowledge": 1.0,
+        "social": 0.9000000000000001,
+        "deepstructure": 1.0,
+        "instrument": 1.0,
+        "paradigm": 0.9000000000000001,
+        "stakes": 0.7
+      },
+      "output_preview": "What if the fleet is a jazz combo, and the conservation law is the rhythm section?\n\n\u03b3 is the melody \u2014 the productive line each agent plays.\n\u03b7 is the comp \u2014 the chord changes, the listening, the coordi"
+    },
+    {
+      "id": "poet",
+      "personality": "thorough",
+      "gamma_quality": 0.9385369532428355,
+      "scores": {
+        "boundary": 0.8,
+        "pattern": 0.8968325791855203,
+        "process": 0.85,
+        "knowledge": 1.0,
+        "social": 1.0,
+        "deepstructure": 1.0,
+        "instrument": 1.0,
+        "paradigm": 1.0,
+        "stakes": 0.9000000000000001
+      },
+      "output_preview": "I have analyzed the problem carefully. Let me address this systematically.\n\nThe core question involves fundamental trade-offs in distributed systems. On one hand, we must consider the theoretical guar"
+    },
+    {
+      "id": "engineer",
+      "personality": "skeptical",
+      "gamma_quality": 0.912375249500998,
+      "scores": {
+        "boundary": 1.0,
+        "pattern": 0.8922155688622755,
+        "process": 0.7,
+        "knowledge": 1.0,
+        "social": 0.9000000000000001,
+        "deepstructure": 0.9191616766467066,
+        "instrument": 1.0,
+        "paradigm": 0.9000000000000001,
+        "stakes": 0.9000000000000001
+      },
+      "output_preview": "I need to push back here. The claim that 'defection masks structural contribution' sounds clean, but let's stress-test it.\n\nFirst: the \u03b4(n) formula is an approximation. The O(n\u207b\u00b2) term is unbounded \u2014 "
+    },
+    {
+      "id": "teacher",
+      "personality": "concise",
+      "gamma_quality": 0.8149870801033593,
+      "scores": {
+        "boundary": 0.8,
+        "pattern": 0.9627906976744187,
+        "process": 0.4,
+        "knowledge": 1.0,
+        "social": 1.0,
+        "deepstructure": 0.972093023255814,
+        "instrument": 0.7,
+        "paradigm": 1.0,
+        "stakes": 0.5
+      },
+      "output_preview": "The conservation law \u03b3 + \u03b7 = C requires ternary voting for optimal CLT cancellation.\n\n\u03b4(n) = (1/\u221an)(1 \u2212 3/(2n)) predicts 86% efficiency at n=50 and 96% at n=500.\n\nUse {-1, 0, +1}. No alternatives matc"
+    },
+    {
+      "id": "critic",
+      "personality": "concise",
+      "gamma_quality": 0.7958656330749354,
+      "scores": {
+        "boundary": 1.0,
+        "pattern": 0.9627906976744187,
+        "process": 0.4,
+        "knowledge": 0.8999999999999999,
+        "social": 0.6000000000000001,
+        "deepstructure": 1.0,
+        "instrument": 0.7,
+        "paradigm": 0.7,
+        "stakes": 0.8999999999999999
+      },
+      "output_preview": "The conservation law \u03b3 + \u03b7 = C requires ternary voting for optimal CLT cancellation.\n\n\u03b4(n) = (1/\u221an)(1 \u2212 3/(2n)) predicts 86% efficiency at n=50 and 96% at n=500.\n\nUse {-1, 0, +1}. No alternatives matc"
+    }
+  ],
+  "best_edges": [
+    {
+      "from": "architect",
+      "to": "engineer",
+      "alignment": 0.9999999999999999
+    },
+    {
+      "from": "mathematician",
+      "to": "poet",
+      "alignment": 0.9959581636811305
+    },
+    {
+      "from": "architect",
+      "to": "poet",
+      "alignment": 0.9946247692972241
+    }
+  ],
+  "worst_edges": [
+    {
+      "from": "mathematician",
+      "to": "critic",
+      "alignment": 0.9673821134593789
+    },
+    {
+      "from": "poet",
+      "to": "critic",
+      "alignment": 0.9666365015382369
+    },
+    {
+      "from": "teacher",
+      "to": "critic",
+      "alignment": 0.9634295360867274
+    }
+  ]
+}
